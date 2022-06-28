@@ -53,9 +53,8 @@ export default function SignIn(props) {
       setSignUpLoading(true)
       dispatch(userLoginAction(formData))
       navigate('/fornInicio')
-      //console.log(formData)
+      return
     }
-    //console.log(valitCount)
   }
   return (
     <div className="sign-Ip-form">
