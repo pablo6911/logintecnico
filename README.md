@@ -14,7 +14,7 @@ Lgin realizado
 - clonamos el repositorio
   -instalamos las dependencias con npm i
 - solo es degitar en la consolo npm start y automaticamente te arranca la base de datos y la pagina
--
+- colocamos el link en mongo debe compass (mongodb+srv://root:root@cluster0.0fpo9.mongodb.net/?retryWrites=true&w=majority) y nos conectamos con mongo
 
 ## Dependencias utilizadas
 
