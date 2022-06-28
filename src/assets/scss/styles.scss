@@ -1,0 +1,72 @@
+//Colors
+@import './colors/colors.scss';
+
+//home
+@import './home/home.scss';
+//layout
+@import './layout/basicLayout';
+
+//leftMenu
+@import './leftMenu/leftMenu.scss';
+
+//login-register
+@import './LoginRegister/signIn.scss';
+@import './LoginRegister/signinSignup';
+@import './LoginRegister/signUp';
+
+//modal
+@import './modal/basicModal.scss';
+@import './modal/EditarInmuebleModal.scss';
+
+//navbar
+@import './nabvar/navbar.scss';
+@import './modal/configModal';
+
+//banner
+@import './banner/bannerAvatar.scss';
+//FormInicio
+@import './FormInicio/loginRegister.scss';
+
+html {
+  height: 100%;
+}
+body {
+  background-color: $background-grey-dark;
+  color: $font-light;
+  min-height: 100%;
+}
+
+.btn {
+  box-shadow: none !important;
+}
+.btn.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover {
+    background-color: rgba(26, 145, 218, 1);
+  }
+}
+.btn.btn-outline-primary {
+  border-color: $border-primary;
+  color: $primary;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba(29, 265, 241, 0.1) !important;
+  }
+}
+
+input.form-control,
+textarea.form-control {
+  background-color: $background-dark-light;
+  border-radius: 15px;
+  border: 0;
+  border-bottom: 3px solid $border-grey;
+  color: $font-light;
+
+  &:focus {
+    background-color: $background-dark-light;
+    box-shadow: none;
+    border-bottom: 3px solid $border-primary;
+  }
+}

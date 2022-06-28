@@ -1,0 +1,30 @@
+@import '../colors/colors.scss';
+
+.home {
+  margin: 5% 50% 0 0;
+  @media screen and(max-width:768px) {
+    flex-direction: column-reverse;
+  }
+  .home-div1 {
+    width: 100%;
+    height: 32.5rem;
+    margin-left: 50%;
+    background-color: $font-light;
+
+    img {
+      width: 35%;
+      margin: {
+        top: 5%;
+        left: 35%;
+      }
+    }
+  }
+  h1 {
+    color: $primary-dark;
+    width: 65%;
+    margin: {
+      left: 85%;
+      top: -10%;
+    }
+  }
+}

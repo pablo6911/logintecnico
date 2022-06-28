@@ -1,0 +1,30 @@
+@import '../colors/colors.scss';
+
+.sign-up-form {
+  h2 {
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  .form-control {
+    padding: 15px;
+    margin-bottom: 17px;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+  button {
+    margin-top: 1rem;
+    width: 100%;
+    font: {
+      size: 20px;
+      weight: bold;
+    }
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+    .spinner-border {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

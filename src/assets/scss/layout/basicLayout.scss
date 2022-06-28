@@ -1,0 +1,18 @@
+@import '../colors/colors.scss';
+
+.basic-layout {
+  &_menu {
+    margin: 0;
+    padding: 0;
+  }
+  &_content {
+    width: 80%;
+    margin-right: 15%;
+    overflow-y: scroll;
+    padding: 0 !important;
+    border-right: 1px solid $border-grey;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
