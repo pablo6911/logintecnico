@@ -1,4 +1,22 @@
-# inmobiliaria
+# Prueba tecnica
+
+##MERN
+
+Lgin realizado
+
+- creamos usuario
+- todos los campos son obligatorios
+- registromos o asemos un login
+- ✨Magic ✨
+
+## modos de instalacion
+
+- clonamos el repositorio
+  -instalamos las dependencias con npm i
+- solo es degitar en la consolo npm start y automaticamente te arranca la base de datos y la pagina
+-
+
+## Dependencias utilizadas
 
 \*\*--------Dependencies - npm
 
