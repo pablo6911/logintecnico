@@ -3,12 +3,10 @@ export default function Barra() {
   return (
     <header className="app-header">
       <p className="nombre-usuario">
-        Hola <span>Pablo </span>{' '}
+        Hola <span> Prueba terminada</span>{' '}
       </p>
 
-      <nav className="nav-principal">
-        <a href="#">Cerrar Sesión</a>
-      </nav>
+      <nav className="nav-principal"></nav>
     </header>
   )
 }
